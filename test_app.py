@@ -26,7 +26,7 @@ def test_pred_virginica():
         assert response.json() == {"flower_class": "Iris Virginica"}
         
 def test_feedback():
-    # defining a sample payload for the testcase
+    # defining a sample payload for the testcase(FeedbackLoop)
     payload = [{
         "sepal_length": 3,
         "sepal_width": 5,
